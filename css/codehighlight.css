@@ -1,3 +1,21 @@
 .highlight {
     tab-size: 2 !important;
 }
+
+div.highlighter-rouge {
+    word-break: keep-all;
+}
+
+div.highlight {
+    overflow-x: auto;
+}
+
+pre.highlight {
+    white-space: pre;
+    word-wrap: break-word;
+    width: fit-content;
+}
+
+code {
+    overflow-x: auto;
+}
